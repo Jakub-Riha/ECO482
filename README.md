@@ -62,3 +62,21 @@ A basic long/short strategy is simulated using predicted labels to assess practi
 
 **dataset.csv**
 - Cleaned dataset with sentiment and financial features models
+
+---
+
+## 🧪 Requirements
+
+- Python 3.8+
+- Required packages:
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+  - `matplotlib`
+  - `seaborn`
+  - `xgboost`
+
+Install via:
+
+```bash
+pip install -r requirements.txt
