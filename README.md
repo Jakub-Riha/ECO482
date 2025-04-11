@@ -1,6 +1,6 @@
 # ECO482 Final Project – Predicting SPY ETF Movement with Sentiment and Financial Indicators
 
-This repository contains all code and data preprocessing pipelines used in our final project for ECO482: Machine Learning for Economists. The objective is to predict the direction of daily SPY ETF returns using a combination of sentiment data from news sources and technical financial indicators.
+This repository contains all code and data preprocessing pipelines used in our final project for ECO482: Machine Learning for Macroeconomic Finance. The objective is to predict the direction of daily SPY ETF returns using a combination of sentiment data from news sources and technical financial indicators.
 
 ---
 
