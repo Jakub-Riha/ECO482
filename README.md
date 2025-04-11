@@ -57,3 +57,8 @@ A basic long/short strategy is simulated using predicted labels to assess practi
 
 ## 📁 Repository Structure
 
+**ECO482_Code.ipynb**
+- Full ML pipeline (data loading, training, evaluation) 
+
+**dataset.csv**
+- Cleaned dataset with sentiment and financial features models
