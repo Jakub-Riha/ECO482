@@ -39,6 +39,7 @@ We explore whether online sentiment and technical indicators can jointly predict
   - Random Forest
   - XGBoost
   - Support Vector Machine (SVM)
+  - K-Nearest Neighbors (KNN)
 
 ---
 
