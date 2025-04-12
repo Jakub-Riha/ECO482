@@ -1,12 +1,13 @@
-# ECO482 Final Project – Predicting SPY ETF Movement with Sentiment and Financial Indicators
+# Sentiment-Driven Markets: Enhancing ETF Price Prediction with News and Tweet Analysis
 
-This repository contains all code and data preprocessing pipelines used in our final project for ECO482: Machine Learning for Macroeconomic Finance. The objective is to predict the direction of daily SPY ETF returns using a combination of sentiment data from news sources and technical financial indicators.
+
+Replication files & code for an ECO482 course project.
 
 ---
 
 ## 📄 Project Overview
 
-We explore whether online sentiment and technical indicators can jointly predict short-term S&P 500 ETF (SPY) price movements. Our dataset includes daily financial indicators (e.g., RSI, MACD, ATR), sentiment scores from major U.S. newspapers (NYT, WSJ, WP), and market-based metrics (VIX, OBV, Ichimoku, etc.).
+This repository contains the paper PDF, code, and supporting files, for a machine learning forecast of S&P500 daily price movements. This project aims to explore whether Trump's tweets, major news headlines, and technical indicators can jointly predict short-term S&P 500 ETF (SPY) price movements
 
 ---
 
@@ -17,6 +18,9 @@ We explore whether online sentiment and technical indicators can jointly predict
   - *New York Times*
   - *Wall Street Journal*
   - *Washington Post*
+ 
+- VADER and Topic Discovery from:
+  - *Trump's tweets*
 
 **Financial & Technical Indicators (Lagged):**
 - Moving Averages (20-day, 50-day)
@@ -49,8 +53,8 @@ Models are evaluated using:
 - Accuracy
 - F1 Score
 - ROC AUC
-- Out-of-sample strategy returns
-- Sharpe Ratio for backtested strategies
+- PnL strategy returns
+- Sharpe Ratio
 
 A basic long/short strategy is simulated using predicted labels to assess practical performance.
 
